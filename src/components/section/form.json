@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_forms",
+  "info": {
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "button_title": {
+      "type": "string"
+    },
+    "button_sending": {
+      "type": "string"
+    }
+  }
+}

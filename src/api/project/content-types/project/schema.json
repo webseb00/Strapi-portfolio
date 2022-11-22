@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Tags": {
+      "type": "string"
+    },
+    "RepoLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.button"
+    },
+    "LiveLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.button"
+    }
+  }
+}

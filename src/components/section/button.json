@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "File": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

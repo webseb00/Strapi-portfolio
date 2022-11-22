@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "projectintros",
+  "info": {
+    "singularName": "projectintro",
+    "pluralName": "projectintros",
+    "displayName": "Projectintro"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.heading"
+    }
+  }
+}
